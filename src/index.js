@@ -1,16 +1,17 @@
 import React from 'react';
 import { render } from 'react-dom';
 import Posts from './Posts';
-import { Favorites } from './Favorites';
 import './style.css';
+import 'semantic-ui-css/semantic.min.css'
+
 
 
 function App() {
   return (
     <>
-      <div><span>★</span>Start editing to see some magic happen :)</div>
+      <div><span>★</span>Welcome to my reddite page :)</div>
       <Posts />
-      <Favorites />
+ 
     </>
   );
 }
